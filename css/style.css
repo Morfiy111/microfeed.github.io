@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../webfonts/Montserrat-Regular.ttf'),
+        url('../webfonts/Montserrat-Bold.ttf'),
+        url('../webfonts/Montserrat-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'mplus1p';
+    src: url('../webfonts/MPLUS1p-Regular.ttf'),
+        url('../webfonts/MPLUS1p-Bold.ttf');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #2F4558;
+}
+
+a {
+    color: #2F4558;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    border-bottom: 1px solid #2F4558;
+    color: #2F4558;
+}
+
+a,
+button {
+    transition: all .3s linear;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'mplus1p', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+@media(max-width:1199px) {}
+
+@media(max-width: 991px) {}
+
+@media(max-width: 767px) {}
+
+@media (max-width: 600px) {}
