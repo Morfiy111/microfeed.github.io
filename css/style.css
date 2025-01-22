@@ -142,6 +142,7 @@ h4 {
     background-attachment: scroll;
     background-size: cover;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .white-overlay {
@@ -189,6 +190,58 @@ h4 {
     width: 50%;
 }
 
+.blue-block {
+    background-color: #BADAF1;
+    position: relative;
+}
+
+.effect-block {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.effect-image {
+    margin-right: 30px;
+}
+
+.blue-block::before {
+    top: 0;
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background: linear-gradient(#fff, #BADAF166);
+}
+
+.canisters-text {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    padding: 25px;
+}
+
+.canisters-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.canisters-img img {
+    width: 100%;
+}
+
+.canisters-img {
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
         justify-content: space-around;
@@ -222,6 +275,14 @@ h4 {
 
     .top-menu-flex {
         padding-bottom: 250px;
+    }
+
+    .effect-block {
+        width: 100%;
+    }
+
+    .canisters-text {
+        padding: 12px;
     }
 }
 
@@ -292,6 +353,28 @@ h4 {
         left: 0;
         top: 70px;
         background-color: rgba(255, 255, 255, 0.6);
+        width: 100%;
+    }
+
+    .advantages-flex {
+        flex-direction: column;
+    }
+
+    .microfids-image,
+    .advantages-title {
+        width: 100%;
+    }
+
+    .canisters-block {
+        flex-wrap: wrap;
+    }
+
+    .canisters-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .canisters-text {
         width: 100%;
     }
 }
