@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     color: #2F4558;
 }
 
@@ -79,7 +79,6 @@ h4 {
     background-position: center center;
     background-size: cover;
     position: relative;
-    margin-bottom: 60px;
 }
 
 .top-menu-flex {
@@ -129,6 +128,65 @@ h4 {
 
 .footer-logo img {
     width: 165px;
+}
+
+.subtitle-item {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.advantages-block {
+    background-image: url('../images/advantages.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+}
+
+.white-overlay {
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-relative {
+    position: relative;
+}
+
+.advantages-block h2 {
+    padding-top: 60px;
+}
+
+.advantages-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.microfids-image img {
+    width: 100%;
+}
+
+.advantages-title {
+    width: 464px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.agrologo img {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.microfids-image {
+    width: 50%;
 }
 
 @media (min-width: 768px) {
