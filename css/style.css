@@ -191,7 +191,7 @@ h4 {
 }
 
 .blue-block {
-    background-color: #BADAF1;
+    background-color: #e3f0fa;
     position: relative;
 }
 
@@ -214,7 +214,7 @@ h4 {
     width: 100%;
     position: absolute;
     height: 50px;
-    background: linear-gradient(#fff, #BADAF166);
+    background: linear-gradient(#fff, #e3f0fa);
 }
 
 .canisters-text {
@@ -225,6 +225,7 @@ h4 {
     padding: 25px;
     display: flex;
     align-items: center;
+    box-shadow: 3px 4px 30px -13px #333;
 }
 
 .canisters-block {
@@ -241,6 +242,7 @@ h4 {
     width: 37%;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 3px 4px 30px -13px #333;
 }
 
 .canisters-img-small {
@@ -258,6 +260,72 @@ h4 {
     text-align: center;
     margin-right: 20px;
     line-height: 1;
+    font-weight: bold;
+}
+
+.vegetables-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.vegetables-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 68.5%;
+    margin-bottom: -20px;
+}
+
+.vegetables-item img {
+    width: 100%;
+}
+
+.vegetables-item {
+    width: 32%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 4px 30px -13px #333;
+}
+
+.vegetables-text {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 3px 4px 30px -13px #333;
+}
+
+.vegetables-text span {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text-images-half {
+    width: 49%;
+}
+
+.text-images-half span {
+    color: #9AC31B;
+}
+
+.white-blue-block {
+    background-color: #F5FBFF;
+    margin-top: -170px;
+    z-index: 1;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+.science-block {
+    position: relative;
+    z-index: 2;
 }
 
 @media (min-width: 768px) {
@@ -300,7 +368,37 @@ h4 {
     }
 
     .canisters-text {
-        padding: 12px;
+        width: 100%;
+    }
+
+    .canisters-block {
+        flex-wrap: wrap;
+    }
+
+    .canisters-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .canisters-img-small {
+        width: 49%;
+    }
+
+    .canisters-text-blue {
+        margin-bottom: 20px;
+    }
+
+    .vegetables-block {
+        flex-wrap: wrap;
+    }
+
+    .vegetables-images {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .vegetables-text {
+        width: 100%;
     }
 }
 
@@ -395,6 +493,15 @@ h4 {
     .canisters-text {
         width: 100%;
     }
+
+    .canisters-img-small {
+        width: 49%;
+    }
+
+    .canisters-text-blue {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 600px) {}
