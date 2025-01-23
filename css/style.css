@@ -221,8 +221,10 @@ h4 {
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
-    width: 50%;
+    width: 61%;
     padding: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .canisters-block {
@@ -236,11 +238,27 @@ h4 {
 }
 
 .canisters-img {
-    width: 48%;
+    width: 37%;
     border-radius: 10px;
     overflow: hidden;
 }
 
+.canisters-img-small {
+    width: 18%;
+}
+
+.canisters-text-blue {
+    background-color: #0069A3;
+    color: #fff;
+    text-align: left;
+}
+
+.text-block-item-big {
+    font-size: 48px;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 1;
+}
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
