@@ -343,6 +343,11 @@ h4 {
     box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
     padding: 20px 11px;
     margin: 0 15px 40px 15px;
+    transition: all .3s linear;
+}
+
+.catalog-item:hover {
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 18, 0.3);
 }
 
 .catalog-good-name span {
