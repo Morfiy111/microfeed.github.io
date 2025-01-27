@@ -498,6 +498,10 @@ button.btn-close {
     color: #fff;
 }
 
+.footer-politics a:hover {
+    border-color: #fff;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
         justify-content: space-around;
